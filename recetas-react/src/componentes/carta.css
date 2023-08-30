@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-container {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .list-container {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
