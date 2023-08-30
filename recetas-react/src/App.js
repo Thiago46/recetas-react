@@ -9,7 +9,13 @@ import can from './img/canelones.jpg'
 import sorr from './img/sorrentinos.jpg'
 
 const App = () => {
-const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la lista
+const icon1 = ["cebolla🧅"];
+const icon2 = ["hevo🥚"];
+const icon3 = ["tomate🍅"];
+const icon4 = ["albahaca🥬"];
+const icon5 = ["sal🧂"]; // Lista de elementos para la lista
+
+
 
   return (
     <div className="app">
@@ -38,7 +44,7 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         Sazona con sal, pimienta y albahaca. Agrega ravioles y calienta.
         
         Sirve con queso parmesano rallado por encima."
-        items={cardItems}
+        items={icon1}
       />
       <Card
         imageSrc={lasag}
@@ -62,7 +68,7 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         Armar la lasaña: En un molde, poner capa de salsa, placas, relleno, queso mozzarella. Repetir.
         Hornear: Cubrir con papel aluminio y hornear a 180 °C por 25 min. Luego, hornear descubierto 15 min hasta dorar.
         Reposar: Dejar reposar unos minutos antes de cortar y servir."
-        items={cardItems}
+        items={icon2}
       />
       <Card
         imageSrc={ñoq}
@@ -95,7 +101,8 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         Mezcla ñoquis con salsa caliente.
         Espolvorea queso parmesano rallado.
         ¡Disfruta!"
-        items={cardItems}
+        items={icon3}
+        
       />
       <Card
         imageSrc={can}
@@ -133,7 +140,8 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         Horneado:
         
         Precalienta a 180°C y hornea los canelones con salsa y queso durante 20-25 min."
-        items={cardItems}
+        items={icon4}
+        
       />
       <Card
         imageSrc={sorr}
@@ -162,7 +170,7 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         Calienta todo a fuego bajo.
         
         Sirve con queso parmesano y perejil."
-        items={cardItems}
+        items={icon5}
       />
       <Footer/>
     </div>
