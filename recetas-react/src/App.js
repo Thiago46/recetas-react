@@ -20,25 +20,24 @@ const cardItems = ['Item 1', 'Item 2', 'Item 3']; // Lista de elementos para la 
         title="Ravioles con salsa"
         description="Ingredientes:
 
-Ravioles rellenos
-400 g de tomates triturados o salsa de tomate
-1 cebolla, picada
-2 dientes de ajo, picados
-2 cucharadas de aceite de oliva
-Sal, pimienta y albahaca al gusto
-Queso parmesano rallado
-Instrucciones:
-
-Cocina los ravioles según las indicaciones, escúrrelos y resérvalos.
-
-Sofríe cebolla y ajo en aceite de oliva en una sartén.
-
-Agrega tomates triturados o salsa de tomate. Cocina 15-20 min a fuego bajo.
-
-Sazona con sal, pimienta y albahaca. Agrega ravioles y calienta.
-
-Sirve con queso parmesano rallado por encima.
-        "
+        Ravioles rellenos
+        400 g de tomates triturados o salsa de tomate
+        1 cebolla, picada
+        2 dientes de ajo, picados
+        2 cucharadas de aceite de oliva
+        Sal, pimienta y albahaca al gusto
+        Queso parmesano rallado
+        Instrucciones:
+        
+        Cocina los ravioles según las indicaciones, escúrrelos y resérvalos.
+        
+        Sofríe cebolla y ajo en aceite de oliva en una sartén.
+        
+        Agrega tomates triturados o salsa de tomate. Cocina 15-20 min a fuego bajo.
+        
+        Sazona con sal, pimienta y albahaca. Agrega ravioles y calienta.
+        
+        Sirve con queso parmesano rallado por encima."
         items={cardItems}
       />
       <Card
